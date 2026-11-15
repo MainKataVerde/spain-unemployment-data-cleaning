@@ -1,0 +1,15 @@
+# Python virtual environment (each machine creates its own from requirements.txt)
+.venv/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Tool caches
+.pytest_cache/
+
+# Generated data: can be rebuilt by running the pipeline
+data/clean/*
+!data/clean/.gitkeep
+
+# data/raw/: decision pending (part 1.4)
