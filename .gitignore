@@ -12,4 +12,4 @@ __pycache__/
 data/clean/*
 !data/clean/.gitkeep
 
-# data/raw/: decision pending (part 1.4)
+# data/raw/ IS committed: the 2025 source file is small and keeps the project reproducible
